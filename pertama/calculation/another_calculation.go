@@ -1,6 +1,6 @@
 package calculation
 
-func MyAdd(numberOne int,numberTwo int) int {
-	result :=  add(numberOne, numberTwo)
+func MyAdd(firstNumber int,secondNumber int) int {
+	result :=  add(firstNumber, secondNumber)
 	return result
 }
