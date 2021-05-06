@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"pertama/calculation"
+	"pertama/multiplication"
 )
 
 func main() {
@@ -13,6 +14,8 @@ func main() {
 	fmt.Printf("my result is %d", result)
 	fmt.Println()
 
-	anotherResult := calculation.MyAdd(6,3)
-	fmt.Println(anotherResult)
+	multiplyResult := multiplication.Multiply(3,4)
+	fmt.Println(multiplyResult)
+
+
 }
